@@ -1,1 +1,14 @@
 <h2>Formation</h2>
+
+{% for degree in site.degrees %}
+    <div>
+        <span>{{ degree.year }}</span>
+        <span>
+            {{ degree.university }}.
+            {{ degree.name }}.
+            {% if degree.special %}
+                ({{ degree.special }})
+            {% endif %}
+        </span>
+    </div>
+{% endfor %}

@@ -5,3 +5,30 @@ hidden:
   phone: 06________
   address: ________
   email: ____@__.com
+
+degrees:
+  -
+    name: Doctorant en Informatique
+    year: 2008
+    university: Université Claude Bernard Lyon 1 (UCBL)
+    special:
+  -
+    name: Master Recherche, Spécialité Image et Informatique Graphique
+    year: 2006
+    university: UCBL (Lyon2, INSA, ECL, ENS)
+    special: Mention Bien
+  -
+    name: Maitrise d'Informatique
+    year: 2005
+    university: UCBL
+    special: Mention Bien
+  -
+    name: Licence d'Informatique
+    year: 2004
+    university: UCBL
+    special: Mention Très Bien
+  -
+    name: DEUG Mathématiques, Informatique et Application aux Sciences
+    year: 2005
+    university: UCBL
+    special: 16e/207
