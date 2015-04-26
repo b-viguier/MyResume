@@ -1,1 +1,7 @@
 title: Benoit Viguier
+
+#Override it in sculpin_site_dev.yml
+personnal:
+  phone: 06________
+  address: ________
+  email: ____@__.com

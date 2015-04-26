@@ -1,2 +1,3 @@
 /vendor/
 /output_*
+/app/config/sculpin_site_dev.yml
