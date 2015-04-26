@@ -1,1 +1,32 @@
 <h2>Expérience Professionnelle</h2>
+
+{# Sort jobs by starting year #}
+{% for year in 2100..2000 %}
+    {% for job in data.jobs if job.begin == year %}
+        <div class="row">
+            <span class="col-md-2">
+                {{ job.begin }}-{{ job.end }}
+                ({{ job.duration }})
+            </span>
+
+            <div class="col-md-10">
+                <div class="row">
+                    {{ job.company }}.
+                    {{ job.name }}.
+                    {{ job.content|raw }}
+                </div>
+                <div class="row">
+                    {% for techno in job.technologies %}
+                        <span class="label label-primary">{{ techno }}</span>
+                    {% endfor %}
+                </div>
+                <div class="row">
+                    {% for keyword in job.keywords %}
+                        <span class="label label-success">{{ keyword }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+    {% endfor %}
+{% endfor %}
