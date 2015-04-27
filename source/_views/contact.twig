@@ -1,16 +1,30 @@
-<h2>Contact</h2>
-<dl class="dl-horizontal">
-    <dt>Email</dt>
-    <dd>{{ site.hidden.email }}</dd>
-
-    <dt>Adresse</dt>
-    <dd>{{ site.hidden.address }}</dd>
-
-    <dt>Tél</dt>
-    <dd>{{ site.hidden.phone }}</dd>
-</dl>
+<h3>Benoit Viguier</h3>
 <ul class="list-unstyled">
-    <li>32 ans (25/04/1983)</li>
-    <li>Permis de conduire</li>
-    <li>Marié, 2 enfants</li>
+    <li>
+        <i class="fa fa-envelope"></i>
+        {{ site.hidden.email }}
+    </li>
+    <li>
+        <i class="fa fa-home"></i>
+        {{ site.hidden.address|raw }}
+    </li>
+    <li>
+        <i class="fa fa-phone"></i>
+        {{ site.hidden.phone }}
+    </li>
+</ul>
+
+<ul class="list-unstyled">
+    <li>
+        <i class="fa fa-birthday-cake"></i>
+        32 ans (25/04/1983)
+    </li>
+    <li>
+        <i class="fa fa-car"></i>
+        Permis de conduire
+    </li>
+    <li>
+        <i class="fa fa-users"></i>
+        Marié, 2 enfants
+    </li>
 </ul>

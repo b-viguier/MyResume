@@ -5,8 +5,14 @@ use: [jobs]
 ---
 
 <div class="container">
-{% include 'resume_title.twig' %}
-{% include 'contact.twig' %}
+    <div class="row">
+        <div class="col-xs-4">
+            {% include 'contact.twig' %}
+        </div>
+        <div class="col-xs-8">
+            {% include 'resume_title.twig' %}
+        </div>
+    </div>
 
 {% include 'education.twig' %}
 {% include 'experiences.twig' %}
