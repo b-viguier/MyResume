@@ -1,1 +1,14 @@
 <h2>Liens</h2>
+
+<div class="row">
+{% for link in site.links %}
+    <div class="col-md-4 text-center">
+        <a href="{{ link.url }}">
+            <img class="img-thumbnail img-responsive center-block" src="assets/{{ link.image }}" alt="{{ link.name }}">
+        </a>
+        <h4>{{ link.name }}</h4>
+        <p><a href="{{ link.url }}">{{ link.short_url }}</a></p>
+        <p>{{ link.description }}</p>
+    </div>
+{% endfor %}
+</div>
