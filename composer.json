@@ -13,5 +13,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+      "html": "vendor/bin/sculpin generate",
+      "pdf": "vendor/bin/sculpin generate && mkdir output && wkhtmltopdf output_dev/index.html output/CV_Viguier.pdf",
+      "clean": "rm -rf output output_dev"
+    }
 }

@@ -2,11 +2,23 @@
 
 Simple generator for my resume, using [Sculpin](https://sculpin.io).
 
-## How to
+## How to...
 
-* `composer install`
-* `vendor/bin/sculpin generate`
+### ...install
+
+`composer install`
+
+### ...generate HTML output
+
+* `composer html`
 * Browse `output_dev/index.html`
+
+### ...generate PDF output
+
+**Require [wkhtmltopdf](http://wkhtmltopdf.org/index.html), at least version 0.12**
+
+* `composer pdf`
+* See `output/CV_Viguier.pdf`
 
 ## Hidden data
 
