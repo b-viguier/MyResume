@@ -32,3 +32,14 @@ degrees:
     year: 2005
     university: UCBL
     special: 16e/207
+
+hobbies:
+  Musique:
+    - Saxophone (3e prix Européen de saxophone, à Gap en 1998), Clavier
+    - Participation à diverses formations (Orchestre de Bal, Jazz Group, BigBand)
+    - Musique Assistée par Ordinateur
+  Divers:
+    - Veille technologique (livres, conférences)
+    - Casse-têtes, Jeux vidéos
+    - Badminton
+    - Magie des pièces

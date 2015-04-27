@@ -1,1 +1,12 @@
 <h2>Centres d'intérêts</h2>
+
+<ul>
+{% for title, list in site.hobbies %}
+    <li>{{ title }}</li>
+    <ul>
+        {% for description in list %}
+            <li>{{ description }}</li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+</ul>
