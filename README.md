@@ -20,6 +20,10 @@ Simple generator for my resume, using [Sculpin](https://sculpin.io).
 * `composer pdf`
 * See `output/CV_Viguier.pdf`
 
+### ...clean generated files
+
+`composer clean`
+
 ## Hidden data
 
 By default, personal data are hidden.
