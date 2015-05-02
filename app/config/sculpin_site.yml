@@ -65,6 +65,10 @@ links:
     description: Mes travaux sur la modélisation d’un système de lumière structurée à partir de graphes, lors de ma thèse au Liris
 
 socials:
+  Website:
+    icon: globe
+    alias: b-viguier.github.io
+    url: https://b-viguier.github.io
   Twitter:
     icon: twitter-square
     alias: @b_viguier
