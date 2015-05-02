@@ -7,21 +7,21 @@
 
         <div>
             <h3>{{ job.name }} <small>{{ job.begin }}-{{ job.end }} ({{ job.duration }})</small></h3>
-            <h4>{{ job.company }}</h4>
+            <h4 class="small-caps">{{ job.company }}</h4>
             <div>
                 {{ job.content|raw }}
             </div>
 
-            <div>
+            <p>
                 {% for techno in job.technologies %}
                     <span class="label label-primary">{{ techno }}</span>
                 {% endfor %}
-            </div>
-            <div>
+            </p>
+            <p>
                 {% for keyword in job.keywords %}
                     <span class="label label-success">{{ keyword }}</span>
                 {% endfor %}
-            </div>
+            </p>
         </div>
 
     {% endfor %}

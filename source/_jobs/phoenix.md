@@ -1,5 +1,5 @@
 ---
-company: PHOENIX INTERACTIVE
+company: Phoenix Interactive
 name: Ingénieur Recherche et Développement 
 begin: 2008
 end: 2009

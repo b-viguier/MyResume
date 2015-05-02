@@ -1,5 +1,5 @@
 ---
-company: UCBL, LIRIS
+company: Ucbl, Liris
 name: Allocataire de Recherche, Moniteur d'enseignement
 begin: 2006
 end: 2008

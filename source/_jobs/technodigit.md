@@ -1,5 +1,5 @@
 ---
-company: TECHNODIGIT , HEXAGON GROUP
+company: Technodigit , Hexagon Group
 name: Ingénieur Recherche et Développement
 begin: 2010
 end: 2013
