@@ -64,3 +64,16 @@ links:
     image: ArticleLiris.PNG
     description: Mes travaux sur la modélisation d’un système de lumière structurée à partir de graphes, lors de ma thèse au Liris
 
+socials:
+  Twitter:
+    icon: twitter-square
+    alias: @b_viguier
+    url: https://twitter.com/b_viguier
+  Github:
+    icon: github-square
+    alias: @b-viguier
+    url: https://github.com/b-viguier
+  Linkedin:
+    icon: linkedin-square
+    alias: linkedin.com/in/bviguier
+    url: https://fr.linkedin.com/in/bviguier
