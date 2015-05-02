@@ -8,14 +8,16 @@ technologies:
     - Php
     - Javascript
     - MySql
+    - Redis
     - Mercurial
     - Git
     - AWS
     - CsCart
     - Atoum
     - Symfony2
+    - Smarty
+    - Twig
     - Jenkins
-    - PhpStorm
 keywords:
     - Développeur Backend
     - Recrutement
