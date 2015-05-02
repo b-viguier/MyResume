@@ -1,0 +1,44 @@
+<section class="row">
+    <h2 class="page-header">Compétences</h2>
+
+    <div class="col-xs-12">
+    <h3>Techniques</h3>
+    {% for skill in site.skills %}
+        <div class="col-xs-4 text-center">
+            <dl>
+                <dt>
+                    {% for icon in skill.icons %}
+                        <i class="fa fa-{{ icon }}"></i>
+                    {% endfor %}
+                    {{ skill.title }}
+                </dt>
+                <dd>
+                    {% for name in skill.list %}
+                        <span class="label label-default">{{ name }}</span>
+                    {% endfor %}
+                </dd>
+            </dl>
+        </div>
+    {% endfor %}
+    </div>
+
+    <div class="col-xs-12">
+        <h3>Anglais</h3>
+        <ul>
+            <li>
+                Lecture et rédaction de documents techniques, scientifiques.
+            </li>
+            <li>
+                Participation en tant qu'exposant à des salons internationaux
+                (IDS 2011, Dental Forum 2012, EuroMold 2012).
+            </li>
+            <li>
+                Déplacements professionnels à Séoul pour les besoins d'un client Coréen.
+            </li>
+            <li>
+                Support client, collaborations diverses...
+            </li>
+        </ul>
+    </div>
+
+</section>

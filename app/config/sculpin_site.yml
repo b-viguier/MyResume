@@ -61,3 +61,30 @@ socials:
     icon: linkedin-square
     alias: linkedin.com/in/bviguier
     url: https://fr.linkedin.com/in/bviguier
+
+skills:
+  -
+    title: Maîtrise
+    icons: [star, star, star, star-half-o]
+    list:
+      - C++
+      - Php
+      - Qt Framework
+      - Git
+      - Mercurial
+      - Design Pattern
+  -
+    title: Utilise
+    icons: [star, star, star-half-o, star-o]
+    list:
+      - Javascript
+      - Symfony2
+      - MySql
+      - OpenGL
+      - Tests unitaires
+  -
+    title: Aimerait
+    icons: [heart, heart, heart, heart]
+    list:
+      - Go
+      - iOS / Android
