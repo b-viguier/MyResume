@@ -14,27 +14,24 @@ technologies:
     - QGLViewer
     - OpenCV
     - Visual Studio
-    - Cygwin
 keywords:
-    - Programmation parallèle
+    - Programmation Parallèle
     - Reconstruction 3D 
-    - Architecture logicielle
-    - Compilation multi-plateforme (Pc, Wii, Ps3)
-    - Méthodes Agiles (Scrum)
-    - IHM
+    - Wii
+    - Ps3
+    - Scrum
 
 ---
 
-Mon expérience m’a permis de participer à deux projets importants au sein de la société :
+Équipe Développement
+: Création du moteur du jeu *Arthur et les Minimoys : La revanche
+de Maltazard* et des outils nécessaires à son utilisation (éditeur de ressources, de scripts...).
+Intégration de diverses technologies Open Source (Ogre3D , Bullet Physics).
 
-**Équipe Développement** : Création du moteur du jeu Arthur et les Minimoys : La revanche
-de Maltazard et des outils nécessaires à son utilisation (éditeur de ressources, de scripts...).
-Intégration de diverses technologies Open Source (Ogre3 D , Bullet Physics).
-
-**Équipe Recherche** : Développement d’outils pour l’acquisition 3 D et le rendu réaliste,
-dans le but d’utiliser des performances d’acteurs directement dans le jeu. Études d’articles
-scientifiques sur la calibration et sur la vision par ordinateur, acquisition et traitement
-d’images, reconstruction de la géométrie, conversion et optimisation des données pour la
-PlayStation3.
-
-*Fin de contrat suite au dépôt de bilan de la société.*
+Équipe Recherche
+: Développement d’outils pour l’acquisition 3D et le rendu réaliste,
+dans le but d’utiliser des performances d’acteurs dans le jeu.
+Recherches sur la vision par ordinateur,
+acquisition et traitement d’images,
+reconstruction 3D,
+conversion et optimisation des données pour la PlayStation3.
