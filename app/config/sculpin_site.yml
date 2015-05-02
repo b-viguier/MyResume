@@ -44,26 +44,6 @@ hobbies:
     - Badminton
     - Magie des pièces
 
-links:
-  -
-    name: 3DReshaper Dental
-    url: http://www.3dreshaper-dental.com
-    short_url: bit.ly/1EKbaQJ
-    image: Dental.PNG
-    description: Le logiciel de CAO dentaire développé chez Technodigit
-  -
-    name: Convergences
-    url: https://www.youtube.com/watch?v=UDT2j8iLlRc
-    short_url: bit.ly/N6PSgc
-    image: Convergences.PNG
-    description: Présentation du projet Convergences développé chez Phoenix Interactive
-  -
-    name: Article
-    url: http://liris.cnrs.fr/Documents/Liris-3285.pdf
-    short_url: bit.ly/PmJjFK
-    image: ArticleLiris.PNG
-    description: Mes travaux sur la modélisation d’un système de lumière structurée à partir de graphes, lors de ma thèse au Liris
-
 socials:
   Website:
     icon: globe
