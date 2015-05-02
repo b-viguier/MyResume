@@ -1,14 +1,24 @@
-<h2 class="page-header">Formation</h2>
+<section class="row">
 
-{% for degree in site.degrees %}
-    <dl class="row dl-horizontal">
-        <dt>{{ degree.year }}</dt>
-        <dd>
-            {{ degree.university }}.
-            {{ degree.name }}.
-            {% if degree.special %}
-                ({{ degree.special }})
-            {% endif %}
-        </dd>
-    </dl>
-{% endfor %}
+    <h2 class="page-header">Formation</h2>
+
+    <table class="table table-condensed">
+        {% for degree in site.degrees %}
+            <tr>
+                <th>
+                    {{ degree.year }}
+                </th>
+                <td>
+                    {{ degree.university }}
+                </td>
+                <td>
+                    {{ degree.name }}
+                    {% if degree.special %}
+                    (<i>{{ degree.special }}</i>)
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+</section>

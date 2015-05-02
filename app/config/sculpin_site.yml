@@ -10,27 +10,27 @@ degrees:
   -
     name: Doctorant en Informatique
     year: 2008
-    university: Université Claude Bernard Lyon 1 (UCBL)
-    special:
+    university: UCB Lyon 1
+    special: Thèse non soutenue suite à embauche
   -
-    name: Master Recherche, Spécialité Image et Informatique Graphique
+    name: Master Recherche, Image et Informatique Graphique
     year: 2006
-    university: UCBL (Lyon2, INSA, ECL, ENS)
+    university: UCB Lyon 1
     special: Mention Bien
   -
     name: Maitrise d'Informatique
     year: 2005
-    university: UCBL
+    university: UCB Lyon 1
     special: Mention Bien
   -
     name: Licence d'Informatique
     year: 2004
-    university: UCBL
+    university: UCB Lyon 1
     special: Mention Très Bien
   -
     name: DEUG Mathématiques, Informatique et Application aux Sciences
-    year: 2005
-    university: UCBL
+    year: 2003
+    university: UCB Lyon 1
     special: 16e/207
 
 hobbies:
