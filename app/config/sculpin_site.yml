@@ -34,13 +34,17 @@ degrees:
     special: 16e/207
 
 hobbies:
+  Programmation:
+    - Veille technologique
+    - Talks (HumanTalks, Afup)
+    - Projets personnels
   Musique:
-    - Saxophone (3e prix Européen de saxophone, à Gap en 1998), Clavier
-    - Participation à diverses formations (Orchestre de Bal, Jazz Group, BigBand)
+    - Saxophone, Clavier, Percussions
+    - Composition
     - Musique Assistée par Ordinateur
   Divers:
-    - Veille technologique (livres, conférences)
-    - Casse-têtes, Jeux vidéos
+    - Jeux vidéos
+    - Casse-têtes
     - Badminton
     - Magie des pièces
 
