@@ -30,7 +30,7 @@ Intégration de diverses technologies Open Source (Ogre3D , Bullet Physics).
 
 Équipe Recherche
 : Développement d’outils pour l’acquisition 3D et le rendu réaliste,
-dans le but d’utiliser des performances d’acteurs dans le jeu.
+pour intégrer des performances d’acteurs dans le jeu.
 Recherches sur la vision par ordinateur,
 acquisition et traitement d’images,
 reconstruction 3D,

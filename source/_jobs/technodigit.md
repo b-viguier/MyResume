@@ -20,10 +20,10 @@ keywords:
 ---
 
 Responsable du développement du module de CAO dentaire sur le logiciel 3DReshaper
-: gestion du projet, architecture du module, nouvelle interface graphique métier, processus
+: Gestion du projet, architecture du module, nouvelle interface graphique métier, processus
 de création de prothèses dentaires (recalage de formes, *morphing*, formes paramétriques,
 export FAO...).
 
 Développements généraux sur 3DReshaper et son Sdk
-: architecture C++ , rendu 3D , sécurité, veille technologique C++11,
+: Architecture C++ , rendu 3D , sécurité, veille technologique C++11,
 tests unitaires, encadrement d’un stagiaire, support client.
