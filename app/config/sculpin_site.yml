@@ -37,7 +37,7 @@ hobbies:
   Programmation:
     - Veille technologique
     - Talks (HumanTalks, Afup)
-    - Projets personnels
+    - Projets personnels (Github)
   Musique:
     - Saxophone, Clavier, Percussions
     - Composition
@@ -54,19 +54,19 @@ links:
     url: http://www.3dreshaper-dental.com
     short_url: bit.ly/1EKbaQJ
     image: Dental.PNG
-    description: Le logiciel de CAO dentaire développé chez Technodigit
+    description: Logiciel de CAO dentaire développé chez Technodigit
   -
     name: Convergences
     url: https://www.youtube.com/watch?v=UDT2j8iLlRc
     short_url: bit.ly/N6PSgc
     image: Convergences.PNG
-    description: Présentation du projet Convergences développé chez Phoenix Interactive
+    description: Projet R&D Convergences développé chez Phoenix Interactive
   -
-    name: Article
+    name: Article Liris
     url: http://liris.cnrs.fr/Documents/Liris-3285.pdf
     short_url: bit.ly/PmJjFK
     image: ArticleLiris.PNG
-    description: Mes travaux sur la modélisation d’un système de lumière structurée à partir de graphes, lors de ma thèse au Liris
+    description: Modélisation d’un système de lumière structurée à partir de graphes
 
 socials:
   Website:

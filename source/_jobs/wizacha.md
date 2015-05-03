@@ -31,6 +31,7 @@ Développement du site [wizacha.com](https://wizacha.com)
 administration des serveurs,
 modification du cœur de l'application pour supporter
 la charge lors des imports de produits (plus de 100000 tous les jours),
+développement d'une [Api Rest](http://dev.wizacha.com/),
 migration de l'application vers des composants Symfony2
 (*EventDispatcher*, *HttpFoundation*, *Dependency Injection*...)
 
