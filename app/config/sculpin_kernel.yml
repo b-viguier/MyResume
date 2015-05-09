@@ -1,3 +1,6 @@
+sculpin:
+    permalink: :basename.html
+
 sculpin_content_types:
   jobs:
     layout: empty

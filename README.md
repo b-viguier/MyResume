@@ -11,14 +11,14 @@ Simple generator for my resume, using [Sculpin](https://sculpin.io).
 ### ...generate HTML output
 
 * `composer html`
-* Browse `output_dev/index.html`
+* Browse `output_dev/resume.html`
 
 ### ...generate PDF output
 
 **Require [wkhtmltopdf](http://wkhtmltopdf.org/index.html), at least version 0.12**
 
 * `composer pdf`
-* See `output/CV_Viguier.pdf`
+* See `output/Viguier_CV.pdf`
 
 ### ...clean generated files
 
