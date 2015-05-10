@@ -16,7 +16,9 @@
     "prefer-stable": true,
     "scripts": {
       "html": "vendor/bin/sculpin generate",
-      "pdf": "vendor/bin/sculpin generate && mkdir -p output && wkhtmltopdf output_dev/resume.html output/Viguier_CV.pdf",
-      "clean": "rm -rf output output_dev"
+      "pdf": "composer html && mkdir -p output && composer _pdf-resume && composer _pdf-motivation",
+      "clean": "rm -rf output output_dev",
+      "_pdf-resume": "wkhtmltopdf output_dev/resume.html output/Viguier_CV.pdf",
+      "_pdf-motivation": "wkhtmltopdf output_dev/motivation.html output/Viguier_LM.pdf"
     }
 }
