@@ -15,7 +15,8 @@ Simple generator for my resume, using [Sculpin](https://sculpin.io).
 
 ### ...generate PDF output
 
-**Require [wkhtmltopdf](http://wkhtmltopdf.org/index.html), at least version 0.12**
+**Require [wkhtmltopdf](http://wkhtmltopdf.org/index.html), at least version 0.12.**
+On OSX, you [should use 32-bit version](https://github.com/wkhtmltopdf/wkhtmltopdf/issues/2442).
 
 * `composer pdf`
 * See `output/Viguier_CV.pdf` and/or `output/Viguier_LM.pdf` 
