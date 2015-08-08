@@ -6,7 +6,12 @@
     {% for job in data.jobs if job.begin == year %}
 
         <div>
-            <h3>{{ job.name }} <small>{{ job.begin }}-{{ job.end }} ({{ job.duration }})</small></h3>
+            <h3>{{ job.name }}
+                <small>
+                    {{ job.begin }} - {{ job.end }}
+                    {%  if job.duration %} ({{ job.duration }}){% endif %}
+                </small>
+            </h3>
             <h4 class="small-caps">{{ job.company }}</h4>
             <div class="text-justify">
                 {{ job.content|raw }}
