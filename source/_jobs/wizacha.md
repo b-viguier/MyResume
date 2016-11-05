@@ -22,7 +22,7 @@ keywords:
     - Développeur Backend
     - Recrutement
     - Lead Développeur
-    - Scrum
+    - Scrum Master
 
 ---
 

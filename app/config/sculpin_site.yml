@@ -39,7 +39,7 @@ degrees:
 hobbies:
   Programmation:
     - Veille technologique
-    - Talks (HumanTalks, Afup)
+    - Talks (Afup, HumanTalks, BBL…)
     - Projets personnels (Github)
   Musique:
     - Saxophone, Clavier, Percussions
@@ -54,14 +54,14 @@ hobbies:
 links:
   -
     name: 3DReshaper Dental
-    url: http://www.3dreshaper-dental.com
-    short_url: bit.ly/1EKbaQJ
+    url: https://www.youtube.com/watch?v=Mc-mJqAASAU
+    short_url: https://youtu.be/Mc-mJqAASAU
     image: Dental.PNG
     description: Logiciel de CAO dentaire développé chez Technodigit
   -
     name: Convergences
     url: https://www.youtube.com/watch?v=UDT2j8iLlRc
-    short_url: bit.ly/N6PSgc
+    short_url: https://youtu.be/UDT2j8iLlRc
     image: Convergences.PNG
     description: Projet R&D Convergences développé chez Phoenix Interactive
   -
@@ -98,22 +98,23 @@ skills:
       - Php
       - Qt Framework
       - Git
-      - Mercurial
+      - Symfony
+      - MySql
+      - Tests unitaires
       - Design Pattern
   -
     title: Utilise
     icons: [star, star, star, star-o]
     list:
-      - Javascript
-      - Symfony2
-      - MySql
       - OpenGL
-      - Tests unitaires
+      - Elasticsearch
+      - Javascript
+      - Vue.js
+      - Jekyll
   -
-    title: Aimerait
+    title: Intéressé par
     icons: [heart, heart, heart, heart]
     list:
-      - Go
-      - iOS
-      - Android
+      - RaspberryPi / Arduino
+      - iOS / Android
       - Open Source

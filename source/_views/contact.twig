@@ -4,15 +4,19 @@
     <div class="col-xs-4">
         <ul class="list-unstyled">
             <li>
-                <i class="fa fa-envelope"></i>
-                {{ site.hidden.email }}
+                <i class="fa fa-fw fa-envelope"></i>
+                <small><a href="mailto:{{ site.hidden.email }}">{{ site.hidden.email }}</a></small>
             </li>
             <li>
-                <i class="fa fa-home"></i>
-                {{ site.hidden.address|raw }}
+                <i class="fa fa-fw fa-home"></i>
+                {{ site.hidden.address }}
             </li>
             <li>
-                <i class="fa fa-phone"></i>
+                <i class="fa fa-fw"></i>
+                {{ site.hidden.address_city }}
+            </li>
+            <li>
+                <i class="fa fa-fw fa-phone"></i>
                 {{ site.hidden.phone }}
             </li>
         </ul>
@@ -21,15 +25,15 @@
     <div class="col-xs-4">
         <ul class="list-unstyled">
             <li>
-                <i class="fa fa-birthday-cake"></i>
-                32 ans (25/04/1983)
+                <i class="fa fa-fw fa-birthday-cake"></i>
+                33 ans (25/04/1983)
             </li>
             <li>
-                <i class="fa fa-car"></i>
+                <i class="fa fa-fw fa-car"></i>
                 Permis de conduire
             </li>
             <li>
-                <i class="fa fa-users"></i>
+                <i class="fa fa-fw fa-users"></i>
                 Marié, 2 enfants
             </li>
         </ul>
@@ -39,7 +43,7 @@
         <ul class="list-unstyled">
             {% for social in site.socials %}
                 <li>
-                    <i class="fa fa-{{ social.icon }}"></i>
+                    <i class="fa fa-fw fa-{{ social.icon }}"></i>
                     <a href="{{ social.url }}">
                         {{ social.alias }}
                     </a>
