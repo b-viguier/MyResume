@@ -37,7 +37,9 @@ imports:
 hidden:
   email: email@example.com
   phone: 0123456789
-  address: France
+  address: my address
+  postal: 12345
+  city: my city
   receiver:
     name: John Doe
     company: ACME
