@@ -3,7 +3,7 @@
 
 {% block content %}
     <div class="container">
-        <div class="row">
+        <div class="row spacer-small">
             <div class="col-xs-3">
                 <ul class="list-unstyled">
                     <li>Benoit Viguier</li>
@@ -43,11 +43,19 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row spacer-big">
+            {% block letter_object %}{% endblock %}
+        </div>
+
+        <div class="row spacer-small">
+            {% block letter_receiver %}{% endblock %}
+        </div>
+
+        <div class="row text-justify">
             {% block letter_content %}{% endblock %}
         </div>
 
-        <div class="row">
+        <div class="row spacer-small">
             <p>
                 Je reste à votre disposition pour tout renseignement complémentaire.
                 Dans l'attente d'une réponse, veuillez agréer mes cordiales salutations.
